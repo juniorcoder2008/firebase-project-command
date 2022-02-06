@@ -7,10 +7,10 @@ If you have installed the command, make sure you have installed [NodeJs](https:/
 ```node -v``` or ```npm -v```. Now press win+r, so now a new little window should open. Type in: ```%appdata%/npm``` and enter. The __npm__ folder  
 should open. There you can drag n drop the ```cmd-file```.
 
-## Use the Command
-After this, you should be able to type in every folder in the cmd ```create-project coolProject```. If this works, happy birthday, now you can save time, cause you shouldn´t
-create a working-directory for web-apps one more time!
+You also need a firebase account, but I think if you don´t work with firebase you wouldn´t use this command.
+In the firebase.js are all important features like auth or firestore imported. You only need to paste in the infos you get when you add 
+a web app to your firebase project.
 
-In the ```package.json``` there are some commands:  
-  - start: to start a live server with Browsersync
-  - build: to build a docker image
+## Use the Command
+After this, you should be able to type in every folder in the cmd ```firebase-project coolProject```. If this works, happy birthday, now you can save time, cause you shouldn´t
+create a working-directory for web-apps one more time!
